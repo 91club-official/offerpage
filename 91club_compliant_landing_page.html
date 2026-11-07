@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>91 Club — Member Access</title>
+  <meta name="description" content="Learn about 91 Club membership access and available member features.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --blue:#2563eb;--blue2:#1d4ed8;--ink:#172033;--muted:#64748b;
+      --bg:#f4f7fb;--line:#e2e8f0;--white:#fff
+    }
+    body{
+      min-height:100vh;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      color:var(--ink);background:linear-gradient(135deg,#eef5ff 0%,#f8fafc 48%,#e8f1ff 100%);
+      display:flex;align-items:center;justify-content:center;padding:24px
+    }
+    .wrap{width:100%;max-width:460px}
+    .card{
+      background:rgba(255,255,255,.96);border:1px solid rgba(148,163,184,.28);
+      border-radius:24px;overflow:hidden;box-shadow:0 24px 70px rgba(30,64,175,.14)
+    }
+    .top{height:7px;background:linear-gradient(90deg,#1d4ed8,#60a5fa,#2563eb)}
+    .content{padding:34px 30px 30px;text-align:center}
+    .logo{
+      width:82px;height:82px;margin:0 auto 20px;border-radius:22px;
+      background:linear-gradient(145deg,#3b82f6,#1d4ed8);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      color:white;box-shadow:0 12px 30px rgba(37,99,235,.28)
+    }
+    .logo strong{font-size:30px;line-height:1;font-weight:900}
+    .logo span{font-size:9px;letter-spacing:3px;font-weight:800;margin-top:5px}
+    .tag{
+      display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;
+      background:#eff6ff;border:1px solid #bfdbfe;color:#1d4ed8;
+      font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:18px
+    }
+    .tag i{width:7px;height:7px;border-radius:50%;background:#2563eb}
+    h1{font-size:28px;line-height:1.2;letter-spacing:-.6px;margin-bottom:12px}
+    h1 span{color:var(--blue)}
+    .sub{font-size:14px;line-height:1.65;color:var(--muted);max-width:350px;margin:0 auto 25px}
+    .features{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 24px
+    }
+    .feature{
+      min-height:104px;padding:16px 8px;border:1px solid var(--line);border-radius:15px;background:#f8fafc;
+      display:flex;flex-direction:column;align-items:center;justify-content:center
+    }
+    .icon{
+      width:32px;height:32px;border-radius:10px;background:#eff6ff;color:var(--blue);
+      display:grid;place-items:center;font-weight:900;margin-bottom:9px
+    }
+    .feature b{font-size:11px;line-height:1.35}
+    .feature small{font-size:10px;color:var(--muted);margin-top:3px}
+    .btn{
+      display:flex;align-items:center;justify-content:center;width:100%;min-height:54px;
+      border:0;border-radius:14px;background:linear-gradient(135deg,#3b82f6,#1d4ed8);
+      color:#fff;text-decoration:none;font-size:14px;font-weight:800;letter-spacing:.8px;
+      cursor:pointer;box-shadow:0 14px 28px rgba(37,99,235,.24)
+    }
+    .note{font-size:11px;color:#64748b;line-height:1.55;margin-top:16px}
+    .footer{
+      border-top:1px solid var(--line);padding:16px 20px;display:flex;justify-content:center;
+      gap:18px;flex-wrap:wrap;color:#64748b;font-size:10px;font-weight:700
+    }
+    @media(max-width:390px){
+      .content{padding:28px 20px 24px}.features{gap:7px}.feature{min-height:96px}
+      h1{font-size:24px}.footer{gap:12px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div class="top"></div>
+      <div class="content">
+        <div class="logo"><strong>91</strong><span>CLUB</span></div>
+
+        <div class="tag"><i></i> Member Access</div>
+
+        <h1>Welcome to <span>91 Club</span></h1>
+
+        <p class="sub">
+          Explore the membership area and review the features and services
+          available to registered members.
+        </p>
+
+        <div class="features">
+          <div class="feature">
+            <div class="icon">✓</div>
+            <b>Member Area</b>
+            <small>Account access</small>
+          </div>
+          <div class="feature">
+            <div class="icon">◆</div>
+            <b>Available Features</b>
+            <small>Explore services</small>
+          </div>
+          <div class="feature">
+            <div class="icon">i</div>
+            <b>Information</b>
+            <small>Learn more</small>
+          </div>
+        </div>
+
+        <a class="btn" id="joinBtn" href="https://nineone88.github.io/91club/dl.html?ok=success">
+          Continue to 91 Club →
+        </a>
+
+        <p class="note">
+          Please review the information on the destination page before continuing.
+        </p>
+      </div>
+
+      <div class="footer">
+        <span>Secure connection</span>
+        <span>Member information</span>
+        <span>Support available</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
